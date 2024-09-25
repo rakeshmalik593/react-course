@@ -1,0 +1,22 @@
+{
+  "name": "react_course",
+  "version": "1.0.0",
+  "description": "this is my react course related code repo",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshmalik593/react-course.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Rakesh Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshmalik593/react-course/issues"
+  },
+  "homepage": "https://github.com/rakeshmalik593/react-course#readme"
+}
