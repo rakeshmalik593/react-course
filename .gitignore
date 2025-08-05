@@ -11,4 +11,4 @@ dist/
 .DS_Store
 
 # Logs (optional)
-*.log
+*.log.parcel-cache/
