@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+  border: 4px solid black; /* 🔲 Adds a solid border around the header */
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+
+}
+.filter-btn{
+  margin:10px;
+  cursor: pointer;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-items li {
+    cursor:pointer;
+    font-weight: 800;
+}
+    .rest-container {
+  display: flex;
+  flex-wrap: wrap;         /* allows cards to move to next line when needed */
+  gap: 16px;               /* adds space between cards */
+  justify-content: center; /* centers cards horizontally */
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    height: 30px; /* Reduce logo size on small screens */
+  }
+
+  .nav-items ul {
+    gap: 10px;
+    font-size: 14px; /* Make nav items smaller */
+  }
+}
+.rest-card{
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: #fff;
+  overflow: hidden;
+  margin: 16px;
+
+}
+rest-img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.rest-card {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 16px;
+  font-family: sans-serif;
+}
+
+.rest-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.rest-card h3 {
+  margin: 12px 16px 8px;
+  font-size: 20px;
+}
+.rest-card:hover{
+  cursor: pointer;
+  border: 2px solid black
+}
+
+.rest-info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-bottom: 8px;
+}
+
+.rest-info-row span {
+  background-color: #f3f3f3;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #555;
+}
+.search-btn:hover{
+cursor: pointer;
+}
