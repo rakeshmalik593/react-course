@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Parcel cache
+.parcel-cache/
+
+# Build output (adjust if you renamed it)
+dist/
+
+# OS-specific (optional but recommended)
+.DS_Store
+
+# Logs (optional)
+*.log
