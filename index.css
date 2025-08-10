@@ -18,6 +18,14 @@
     width: auto;
     object-fit: contain;
 }
+.search{
+  display: flex;
+  padding: 10 10;
+  gap: 20px;
+}
+.filter {
+  display: flex;
+}
 
 .nav-items ul {
     display: flex;

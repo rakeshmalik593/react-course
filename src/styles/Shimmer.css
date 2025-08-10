@@ -1,0 +1,40 @@
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.shimmer-card {
+  width: 300px;
+  height: 250px;
+  background: #f6f7f8;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 12px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.shimmer-img {
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.shimmer-line {
+  height: 16px;
+  background: #ccc;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -300px 0;
+  }
+  100% {
+    background-position: 300px 0;
+  }
+}
